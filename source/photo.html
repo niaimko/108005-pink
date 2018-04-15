@@ -136,6 +136,41 @@
           Выкладывайте все, что накопилось в телефоне!
         </p>
       </section>
+      <!--блок обработки фотографий-->
+      <section class="photo-edit">
+        <h2 class="visually-hidden">Обработка фотографии</h2>
+        <form class="photo-edit__form" action="https://echo.htmlacademy.ru" method="get">
+          <a class="photo-edit__link">
+            <img class="photo-edit__link-image" src="http://placehold.it/280x374" width="280" height="374" alt="Изображение для обработки">
+          </a>
+          <!--кнопки для обработки фото-->
+          <ul class="photo-edit__edit-button edit-button">
+            <li class="edit-button__item">
+              <button class="edit-button__button edit-button__button--crop" type="button">Обрезать</button>
+            </li>
+            <li class="edit-button__item">
+              <button class="edit-button__button edit-button__button--fill" type="button">Залить</button>
+            </li>
+            <li class="edit-button__item">
+              <button class="edit-button__button edit-button__button--contrast" type="button">Конраст</button>
+            </li>
+          </ul>
+          <!--ползунок-->
+          <div class="photo-edit__edit-range edit-range">
+            <div class="edit-range__controls">
+              <!--полоска/шкала-->
+              <div class="edit-range__scale"></div>
+              <!--ползунок-->
+              <div class="edit_range__range-toggle"></div>
+            </div>
+          </div>
+          <!--кнопки формы-->
+          <div class="photo-edit__form-buttons form-buttons">
+            <button class="form-buttons__submit button" type="submit">Запостить</button>
+            <button class="form-buttons__cancel button" type="reset">Отмена</button>
+          </div>
+        </form>
+      </section>
     </main>
   </body>
 </html>
