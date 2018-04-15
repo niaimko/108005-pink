@@ -112,6 +112,33 @@
               <input id="appointment-email" type="email" name="email" value="" placeholder="Введите почту *" required>
             </p>
           </div>
+          <!--платформа телефона-->
+          <fieldset class="appointment__platform-information platform-information">
+            <legend class="platform-information__intro">С каким приложением путешествовали?</legend>
+            <ul class="platform-information__list platform-list">
+              <li class="platform-list__item">
+                <label class="platform-list__radio">
+                  <input type="radio" name="platform" value="ios" class="visually-hidden" checked>
+                  <span class="platform-list__radio-indicator"></span>
+                  Pink для iOS
+                </label>
+              </li>
+              <li class="platform-list__item">
+                <label class="platform-list__radio">
+                  <input type="radio" name="platform" value="android" class="visually-hidden">
+                  <span class="platform-list__radio-indicator"></span>
+                  Pink на Android
+                </label>
+              </li>
+              <li class="platform-list__item">
+                <label class="platform-list__radio">
+                  <input type="radio" name="platform" value="windows-phone" class="visually-hidden">
+                  <span class="platform-list__radio-indicator"></span>
+                  Windows Phone
+                </label>
+              </li>
+            </ul>
+          </fieldset>
         </form>
       </section>
     </main>
