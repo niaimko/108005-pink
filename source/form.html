@@ -32,6 +32,77 @@
       <section class="page-intro">
         <h1 class="page-intro__title">Конкурс на самое безбашенное путешествие с Пинк</h1>
       </section>
+      <!--блок записи на конкурс-->
+      <section class="appointment">
+        <p class="appointment__info">
+          Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!
+        </p>
+        <form class="appointment__form" action="https://echo.htmlacademy.ru" method="get">
+          <!--информация об имени-->
+          <div class="appointment__name-information name-information">
+            <p class="name-information__item">
+              <label for="appointment-surname">Фамилия:</label>
+              <input id="appointment-surname" type="text" name="surname" value="" placeholder="Укажите фамилию *" required>
+            </p>
+            <p class="name-information__item">
+              <label for="appointment-name">Имя:</label>
+              <input id="appointment-name" type="text" name="name" value="" placeholder="Введите ваше имя *" required>
+            </p>
+            <p class="name-information__item">
+              <label for="appointment-patronymic">Отчество:</label>
+              <input id="appointment-patronymic" type="text" name="patronymic" value="" placeholder="Ну и отчество тоже">
+            </p>
+          </div>
+          <!--достижения-->
+          <fieldset class="appointment__achievements-information achievements-information">
+            <legend class="achievements-information__intro">Ваши безбашенные достижения в путешествии</legend>
+            <ul class="achievements-information__list achievements-list">
+              <li class="achievements-list__item">
+                <label class="achievements-list__checkbox">
+                  <input type="checkbox" name="shark" class="visually-hidden" checked>
+                  <span class="achievements-list__checkbox-indicator"></span>
+                  Сделал селфи с акулой
+                </label>
+              </li>
+              <li class="achievements-list__item">
+                <label class="achievements-list__checkbox">
+                  <input type="checkbox" name="beach" class="visually-hidden" checked>
+                  <span class="achievements-list__checkbox-indicator"></span>
+                  Обгорел на пляже
+                </label>
+              </li>
+              <li class="achievements-list__item">
+                <label class="achievements-list__checkbox">
+                  <input type="checkbox" name="chuck-norris" class="visually-hidden">
+                  <span class="achievements-list__checkbox-indicator"></span>
+                  Видел Чака Норриса
+                </label>
+              </li>
+              <li class="achievements-list__item">
+                <label class="achievements-list__checkbox">
+                  <input type="checkbox" name="souvenir" class="visually-hidden">
+                  <span class="achievements-list__checkbox-indicator"></span>
+                  Накупил сувениров
+                </label>
+              </li>
+              <li class="achievements-list__item">
+                <label class="achievements-list__checkbox">
+                  <input type="checkbox" name="tower" class="visually-hidden">
+                  <span class="achievements-list__checkbox-indicator"></span>
+                  Удержал башню
+                </label>
+              </li>
+              <li class="achievements-list__item">
+                <label class="achievements-list__checkbox">
+                  <input type="checkbox" name="hotel" class="visually-hidden">
+                  <span class="achievements-list__checkbox-indicator"></span>
+                  Разгромил отель
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+        </form>
+      </section>
     </main>
   </body>
 </html>
