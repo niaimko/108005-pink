@@ -1,0 +1,17 @@
+.maps {
+  min-height: 645px;
+
+  background-color: $maps-background-color;
+
+  h2 {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: $color-main;
+  }
+}
+
+.maps__map {
+  margin: 0;
+  padding: 0;
+}
