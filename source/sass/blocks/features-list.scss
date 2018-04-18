@@ -1,0 +1,15 @@
+.features-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  background-color: $application-features-background-color;
+}
+
+.features-list__title {
+  @include features-list-title-fonts;
+
+  margin: 0;
+  padding: 0;
+}

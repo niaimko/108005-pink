@@ -1,0 +1,25 @@
+.application-features {
+  @include application-features-fonts;
+
+  min-height: 1002px;
+
+  background-color: $application-features-background-color;
+  background-image: url("../../img/iphone-screen-mobile@1x.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.application-features__header {
+  background-color: $application-features-header-background-color;
+
+  h2 {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: $color-main;
+  }
+}
+
+.application-features__slogan {
+  @include slogan-fonts;
+}
