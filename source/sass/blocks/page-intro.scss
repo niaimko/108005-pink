@@ -1,0 +1,26 @@
+.page-intro {
+  min-height: 462px;
+
+  background-color: $page-intro-background-color;
+  background-image:
+    url("../../img/iphone-hand-mobile@1x.png"),
+    url("../../img/bg-back-mobile@1x.jpg");
+  background-position:
+    bottom left,
+    top left;
+  background-repeat:
+    no-repeat;
+
+  h1 {
+    @include page-intro-fonts;
+  }
+}
+
+.photo-page .page-intro,
+.form-page .page-intro {
+  min-height: 237px;
+
+  background-image: url("../../img/bg-back-mobile@1x.jpg");
+  background-position: top left;
+  background-repeat: no-repeat;
+}

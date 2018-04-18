@@ -6,3 +6,10 @@
   color: $color-page-header;
   text-transform: uppercase;
 }
+
+@mixin page-intro-fonts {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: $color-page-intro;
+}
