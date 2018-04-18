@@ -135,3 +135,28 @@
   font-weight: 300;
   color: $color-bright;
 }
+
+@mixin achievements-intro-fonts {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: $color-bright;
+  text-transform: uppercase;
+}
+
+@mixin achievements-list-fonts {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $color-main;
+}
+
+@mixin comment-information-textarea-fonts {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $color-main;
+}

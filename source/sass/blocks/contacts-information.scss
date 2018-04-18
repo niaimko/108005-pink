@@ -1,0 +1,15 @@
+.contacts-information {
+  min-height: 287px;
+
+  background-color: $appointment-contacts-information-background-color;
+
+  label {
+    color: $color-bright;
+    text-transform: uppercase;
+  }
+
+  input {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

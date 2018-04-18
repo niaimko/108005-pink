@@ -1,0 +1,10 @@
+.achievements-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.achievements-list__checkbox {
+  @include achievements-list-fonts;
+}

@@ -1,0 +1,13 @@
+.comment-information {
+  min-height: 271px;
+
+  background-color: $appointment-comment-background-color;
+
+  label {
+    @include achievements-intro-fonts;
+  }
+
+  textarea {
+    @include comment-information-textarea-fonts;
+  }
+}

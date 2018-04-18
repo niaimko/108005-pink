@@ -1,0 +1,15 @@
+.appointment {
+  background-color: $page-main-background-color;
+}
+
+.appointment__info {
+  line-height: 30px;
+}
+
+.appointment__legend {
+  line-height: 30px;
+
+  sup {
+    color: $color-bright;
+  }
+}

@@ -1,0 +1,11 @@
+.achievements-information {
+  min-height: 604px;
+
+  background-color: $appointment-achievements-information-background-color;
+
+  border: none;
+}
+
+.achievements-information__intro {
+  @include achievements-intro-fonts;
+}

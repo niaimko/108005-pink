@@ -1,0 +1,15 @@
+.name-information {
+  min-height: 370px;
+
+  background-color: $appointment-name-information-background-color;
+
+  label {
+    color: $color-bright;
+    text-transform: uppercase;
+  }
+
+  input {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

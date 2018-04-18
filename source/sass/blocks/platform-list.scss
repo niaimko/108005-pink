@@ -1,0 +1,10 @@
+.platform-list{
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.platform-list__radio {
+  @include achievements-list-fonts;
+}

@@ -1,0 +1,11 @@
+.platform-information {
+  min-height: 340px;
+
+  background-color: $appointment-platform-information-background-color;
+
+  border: none;
+}
+
+.platform-information__intro {
+  @include achievements-intro-fonts;
+}
