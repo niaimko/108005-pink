@@ -1,0 +1,14 @@
+.contacts-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.contacts-list__title {
+  @include contacts-list-title-fonts;
+}
+
+.contacts-list__information {
+  @include contacts-list-information-fonts;
+}
