@@ -1,0 +1,28 @@
+.photos-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.photos-list__item {
+  min-height: 323px;
+
+  background-color: $photos-list-item-background-color;
+}
+
+.photos-list__author-name {
+  @include photos-list-author-name-fonts;
+}
+
+.photos-list__author-time {
+  @include photos-list-author-time-fonts;
+}
+
+.photos-list__comment {
+  @include photos-list-comment-fonts;
+}
+
+.photos-list__like {
+  @include photos-list-like-fonts;
+}

@@ -160,3 +160,44 @@
   font-weight: 400;
   color: $color-main;
 }
+
+@mixin photos-fonts {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $color-main;
+}
+
+@mixin photos-list-author-name-fonts {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $color-main;
+}
+
+@mixin photos-list-author-time-fonts {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 300;
+  color: $color-main;
+  text-transform: uppercase;
+}
+
+@mixin photos-list-comment-fonts {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $color-main;
+}
+
+@mixin photos-list-like-fonts {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $color-bright;
+}
