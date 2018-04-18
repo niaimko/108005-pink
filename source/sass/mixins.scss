@@ -13,3 +13,20 @@
   font-weight: 300;
   color: $color-page-intro;
 }
+
+@mixin application-download-fonts {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: $color-application-download;
+}
+
+@mixin button-fonts {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: $color-button;
+  text-decoration: none;
+}

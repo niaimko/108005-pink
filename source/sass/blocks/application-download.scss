@@ -1,0 +1,12 @@
+.application-download {
+  @include application-download-fonts;
+
+  background-color: $application-download-background-color;
+
+  h2 {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff;
+  }
+}
