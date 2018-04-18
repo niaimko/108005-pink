@@ -34,3 +34,12 @@
 @import "blocks/site-list.scss";
 @import "blocks/slider.scss";
 @import "blocks/social.scss";
+
+
+body {
+  @include page-main-style;
+}
+
+a {
+  text-decoration: none;
+}
