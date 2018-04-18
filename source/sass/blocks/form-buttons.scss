@@ -1,0 +1,11 @@
+.form-buttons {
+  min-height: 202px;
+}
+
+.form-buttons__submit {
+  color: $color-bright;
+}
+
+.form-buttons__cancel {
+  color: rgba($color-main, 0.1%);
+}
