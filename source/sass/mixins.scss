@@ -54,3 +54,20 @@
   font-weight: 700;
   color: $color-appliaction-features-title;
 }
+
+@mixin reviews-fonts {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $color-main;
+}
+
+@mixin reviews-author-name-fonts {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 30px;
+  font-weight: 700;
+  color: $color-reviews-author-name;
+}

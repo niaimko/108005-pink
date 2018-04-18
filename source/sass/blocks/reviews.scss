@@ -1,0 +1,23 @@
+.reviews {
+  @include reviews-fonts;
+
+  min-height: 377px;
+
+  background-color: $reviews-background-color;
+
+  h2 {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: $color-main;
+  }
+}
+
+.reviews__item {
+  margin: 0;
+  padding: 0;
+}
+
+.reviews__author-name {
+  @include reviews-author-name-fonts;
+}
