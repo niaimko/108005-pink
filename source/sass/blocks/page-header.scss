@@ -1,5 +1,5 @@
 .page-header {
   @include page-header-fonts;
 
-  background-color: rgba(#1d2631, 0.3%);
+  background-color: $page-header-background-color;
 }
