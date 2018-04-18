@@ -1,0 +1,43 @@
+.rates {
+  @include rates-fonts;
+
+  min-height: 470px;
+
+  background-color: $rates-background-color;
+
+  h2 {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: $color-main;
+    text-transform: none;
+  }
+}
+
+.rates__item th {
+  background-color: $rates-table-header-background-color;
+}
+
+.rates__title {
+  @include rates-title-fonts;
+}
+
+.rates__price {
+  @include rates-price-fonts;
+}
+
+.rates__item td {
+  background-color: $rates-table-data-background-color;
+}
+
+.rates__property-include {
+  background-image: url("../../img/icon-yes.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.rates__property-exclude {
+  background-image: url("../../img/icon-no.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
