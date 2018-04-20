@@ -1,6 +1,7 @@
 @import "fonts.scss";
 @import "variables.scss";
 @import "mixins.scss";
+@import "scaffolding.scss";
 @import "blocks/achievements-information.scss";
 @import "blocks/achievements-information.scss";
 @import "blocks/achievements-list.scss";
@@ -34,12 +35,3 @@
 @import "blocks/site-list.scss";
 @import "blocks/slider.scss";
 @import "blocks/social.scss";
-
-
-body {
-  @include page-main-style;
-}
-
-a {
-  text-decoration: none;
-}
