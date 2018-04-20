@@ -3,7 +3,7 @@
 
   min-height: 470px;
 
-  background-color: $rates-background-color;
+  background-color: $background-color-second;
 
   h2 {
     font-family: "Open Sans", "Arial", sans-serif;
@@ -15,7 +15,7 @@
 }
 
 .rates__item th {
-  background-color: $rates-table-header-background-color;
+  background-color: $background-color-dark;
 }
 
 .rates__title {
@@ -27,7 +27,7 @@
 }
 
 .rates__item td {
-  background-color: $rates-table-data-background-color;
+  background-color: $background-color-main;
 }
 
 .rates__property-include {

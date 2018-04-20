@@ -1,7 +1,7 @@
 .application-download {
   @include application-download-fonts;
 
-  background-color: $application-download-background-color;
+  background-color: $background-color-dark;
 
   h2 {
     font-family: "Open Sans", "Arial", sans-serif;

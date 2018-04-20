@@ -3,14 +3,14 @@
 
   min-height: 1002px;
 
-  background-color: $application-features-background-color;
+  background-color: $background-color-second;
   background-image: url("../../img/iphone-screen-mobile@1x.png");
   background-repeat: no-repeat;
   background-position: bottom center;
 }
 
 .application-features__header {
-  background-color: $application-features-header-background-color;
+  background-color: $background-color-main;
 
   h2 {
     font-family: "Open Sans", "Arial", sans-serif;
