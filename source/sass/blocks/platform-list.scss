@@ -6,5 +6,6 @@
 }
 
 .platform-list__radio {
-  @include achievements-list-fonts;
+  font-size: 18px;
+  line-height: 30px;
 }

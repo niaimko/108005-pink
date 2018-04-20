@@ -12,17 +12,16 @@
 }
 
 .photos-list__author-name {
-  @include photos-list-author-name-fonts;
+  font-weight: 700;
 }
 
 .photos-list__author-time {
-  @include photos-list-author-time-fonts;
-}
-
-.photos-list__comment {
-  @include photos-list-comment-fonts;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 .photos-list__like {
-  @include photos-list-like-fonts;
+  font-size: 12px;
+  color: $color-bright;
 }

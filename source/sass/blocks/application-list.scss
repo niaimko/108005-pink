@@ -25,5 +25,9 @@
 }
 
 .application-list__link {
-  @include button-fonts;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: $color-light;
+  text-decoration: none;
 }

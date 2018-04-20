@@ -1,7 +1,8 @@
 .rates {
-  @include rates-fonts;
-
   min-height: 470px;
+
+  line-height: 30px;
+  text-transform: uppercase;
 
   background-color: $background-color-second;
 
@@ -19,11 +20,19 @@
 }
 
 .rates__title {
-  @include rates-title-fonts;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: $color-light;
+  text-transform: uppercase;
 }
 
 .rates__price {
-  @include rates-price-fonts;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 300;
+  color: $color-light;
+  text-transform: uppercase;
 }
 
 .rates__item td {

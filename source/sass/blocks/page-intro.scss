@@ -10,10 +10,12 @@
     top left;
   background-repeat:
     no-repeat;
+}
 
-  h1 {
-    @include page-intro-fonts;
-  }
+.page-intro__title {
+  font-size: 24px;
+  font-weight: 300;
+  color: $color-light;
 }
 
 .photo-page .page-intro,

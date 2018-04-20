@@ -1,7 +1,7 @@
 .reviews {
-  @include reviews-fonts;
-
   min-height: 377px;
+
+  line-height: 30px;
 
   background-color: $background-color-main;
 
@@ -19,5 +19,9 @@
 }
 
 .reviews__author-name {
-  @include reviews-author-name-fonts;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 30px;
+  font-weight: 700;
+  color: $color-dark;
 }

@@ -13,3 +13,12 @@
     color: $color-bright;
   }
 }
+
+.appointment__button {
+  font: inherit;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: $color-light;
+  text-transform: uppercase;
+}

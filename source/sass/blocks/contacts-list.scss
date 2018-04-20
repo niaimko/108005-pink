@@ -6,9 +6,12 @@
 }
 
 .contacts-list__title {
-  @include contacts-list-title-fonts;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .contacts-list__information {
-  @include contacts-list-information-fonts;
+  line-height: 32px;
+  font-weight: 300;
+  color: $color-bright;
 }
