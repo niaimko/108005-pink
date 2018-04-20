@@ -18,11 +18,12 @@
   color: $color-light;
 }
 
-.photo-page .page-intro,
-.form-page .page-intro {
-  min-height: 237px;
+.photo-page, .form-page {
+  .page-intro {
+    min-height: 237px;
 
-  background-image: url("../img/bg-back-mobile@1x.jpg");
-  background-position: top left;
-  background-repeat: no-repeat;
+    background-image: url("../img/bg-back-mobile@1x.jpg");
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
 }
