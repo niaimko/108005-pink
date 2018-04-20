@@ -1,40 +1,13 @@
-/* основые цвета текста в проекте */
+/* основные цвета текста в проекте */
 
 $color-main: #283645; // основной цвет текста (темный)
 $color-bright: #d22856; // яркий цвет текста (розовый)
-$color-page-header: #ffffff; // цвет текста шапки (белый)
-$color-page-intro: #ffffff; // цвет текста для блока приветствия (белый)
-$color-application-download: #ffffff; // цвет текста для блока скачать приложение (белый)
-$color-button: #ffffff; // основной цвет для кнопок проекта (белый)
-$color-appliaction-features-title: #000000; // цвет для заголовков в блоке храктеристик приложения (черный)
-$color-reviews-author-name: #000000; // цвет для авторов отзывов
-$color-rates-title: #ffffff; // цвет для названия тарифа в ячейке-заголовке в таблице в блоке тарифы
-$color-rates-price: #ffffff; // цвет для цены тарифа в ячейке-заголовке в таблице в блоке тарифы
-$color-contacts-title: #000000; // цвет для текста заголовка в списке контактов в подвале сайта
+$color-light: #ffffff; // белый цвет
+$color-dark: #000000; // черный цвет
 
 /* основые цвета фона в проекте */
 
-$page-main-background-color: #ffffff; // основной цвет фона для проекта
-$page-header-background-color: rgba(#1d2631, 0.3%); // цвет фона для шапки
-$page-header-site-list-background-color: #283645; // цвет фона для меню шапки
-$page-intro-background-color: #2b3a4a; // цвет фона для блока приветствия
-$application-download-background-color: #2b3a4a; // цвета фона для блока скачать приложение
-$application-features-background-color: #f2f2f2; // цвет фона для блока характеристики приложения
-$application-features-header-background-color: #ffffff; // цвет фона для шапки в блоке характеристики приложения
-$reviews-background-color: #ffffff; // цвет фона для блока отзывы
-$rates-background-color: #f2f2f2; // цвет фона для блока тарифы
-$rates-table-header-background-color: #283645; // цвет фона для ячеек-заголовков в таблице в блоке тарифы
-$rates-table-data-background-color: #ffffff; // цвет фона для ячеек в таблице в блоке тарифы
-$maps-background-color: #f2f2f2; // цвет фона для карты
-$page-footer-background-color: #ffffff; // цвет фона для подвала
-$appointment-background-color: #ffffff; // цвет фона для формы конкурса
-$appointment-name-information-background-color: #ffffff; // цвет фона для раздела формы с информацией об имени
-$appointment-achievements-information-background-color: #f2f2f2; // цвет фона для раздела формы с достижениями
-$appointment-contacts-information-background-color: #ffffff; // цвет фона для раздела формы с контактами
-$appointment-platform-information-background-color: #f2f2f2; // цвет фона для раздела формы с платформами телефонов
-$appointment-comment-background-color: #ffffff; // цвет фона для раздела формы с комментариями
-$social-background-color: #ffffff; // цвет фона для блока с социальными кнопками
-$copyright-background-color: #ffffff; // цвет фона для блока с копирайтом
-$photos-background-color: #ffffff; // цвет фона для блока с фотографиями
-$photos-list-item-background-color: #f2f2f2; // цвет фона для элементов списка из блока с фотографиями
-$photo-edit-background-color: #f2f2f2; // цвет фона блока обработки фотографий
+$background-color-main: #ffffff; // основной цвет фона (белый)
+$background-color-second: #f2f2f2; // вторичный цвет фона (серый)
+$background-color-dark: #1d2631; // темный цвет фона
+$background-color-dark-second: #283645; // вторичный темный цвет фона
