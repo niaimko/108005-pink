@@ -1,0 +1,8 @@
+.achievements-list {
+  @include list-default-style;
+}
+
+.achievements-list__checkbox {
+  font-size: 18px;
+  line-height: 30px;
+}

@@ -1,0 +1,16 @@
+.contacts-information {
+  min-height: 287px;
+
+  background-color: $background-color-main;
+
+  label {
+    color: $color-bright;
+    text-transform: uppercase;
+  }
+
+  input {
+    font: inherit;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

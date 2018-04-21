@@ -1,0 +1,8 @@
+.platform-list {
+  @include list-default-style;
+}
+
+.platform-list__radio {
+  font-size: 18px;
+  line-height: 30px;
+}

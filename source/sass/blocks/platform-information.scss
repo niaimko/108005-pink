@@ -1,0 +1,15 @@
+.platform-information {
+  min-height: 340px;
+
+  background-color: $background-color-second;
+
+  border: none;
+}
+
+.platform-information__intro {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: $color-bright;
+  text-transform: uppercase;
+}

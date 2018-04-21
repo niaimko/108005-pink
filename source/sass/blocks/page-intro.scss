@@ -1,0 +1,39 @@
+.page-intro {
+  min-height: 462px;
+
+  background-color: $background-color-dark;
+  background-image:
+    url("../img/iphone-hand-mobile@1x.png"),
+    url("../img/bg-back-mobile@1x.jpg");
+  background-position:
+    bottom left,
+    top left;
+  background-repeat:
+    no-repeat;
+}
+
+.page-intro__title {
+  font-size: 24px;
+  font-weight: 300;
+  color: $color-light;
+}
+
+.photo-page {
+  .page-intro {
+    min-height: 237px;
+
+    background-image: url("../img/bg-back-mobile@1x.jpg");
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+}
+
+.form-page {
+  .page-intro {
+    min-height: 237px;
+
+    background-image: url("../img/bg-back-mobile@1x.jpg");
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+}

@@ -1,0 +1,44 @@
+.rates {
+  min-height: 470px;
+
+  line-height: 30px;
+  text-transform: uppercase;
+
+  background-color: $background-color-second;
+}
+
+.rates__item th {
+  background-color: $background-color-dark;
+}
+
+.rates__title {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: $color-light;
+  text-transform: uppercase;
+}
+
+.rates__price {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 300;
+  color: $color-light;
+  text-transform: uppercase;
+}
+
+.rates__item td {
+  background-color: $background-color-main;
+}
+
+.rates__property-include {
+  background-image: url("../img/icon-yes.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.rates__property-exclude {
+  background-image: url("../img/icon-no.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}

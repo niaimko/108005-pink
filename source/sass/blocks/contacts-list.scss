@@ -1,0 +1,14 @@
+.contacts-list {
+  @include list-default-style;
+}
+
+.contacts-list__title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.contacts-list__information {
+  line-height: 32px;
+  font-weight: 300;
+  color: $color-bright;
+}

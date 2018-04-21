@@ -3,26 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="page-header">
       <a class="page-header__logo">
-        <img class="page-header__logo-image" src="http://placehold.it/75x22" width="75" height="22" alt="Приложение Пинк">
+        <img class="page-header__logo-image" src="img/logo-pink-white-mobile.svg" width="75" height="22" alt="Приложение Пинк">
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">Открыть меню</button>
         <ul class="main-nav__list site-list">
           <li class="site-list__item site-list__item--active">
-            <a>Главная</a>
+            <a class="site-list__link">Главная</a>
           </li>
           <li class="site-list__item">
-            <a href="photo.html">Фотографии</a>
+            <a class="site-list__link" href="photo.html">Фотографии</a>
           </li>
           <li class="site-list__item">
-            <a href="form.html">Конкурс</a>
+            <a class="site-list__link" href="form.html">Конкурс</a>
           </li>
           <li class="site-list__item">
-            <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+            <a class="site-list__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
           </li>
         </ul>
       </nav>
@@ -35,16 +36,16 @@
       <!--блок "скачать приложение"-->
       <section class="application-download">
         <h2 class="visually-hidden">Ссылки на скачивание приложения &#171;Пинк&#187;</h2>
-        <a class="application-download__default" href="https://itunes.apple.com/ru/genre/ios/id36?mt=8">Скачать приложение</a>
+        <a class="application-download__default button" href="https://itunes.apple.com/ru/genre/ios/id36?mt=8">Скачать приложение</a>
         <ul class="application-download__list application-list">
-          <li class="application-list__item">
-            <a href="https://itunes.apple.com/ru/genre/ios/id36?mt=8">Скачать приложение на iOS</a>
+          <li class="application-list__item application-list__item--ios">
+            <a class="application-list__link" href="https://itunes.apple.com/ru/genre/ios/id36?mt=8">Скачать приложение на iOS</a>
           </li>
-          <li class="application-list__item">
-            <a href="https://play.google.com/store">Скачать приложение на Android</a>
+          <li class="application-list__item application-list__item--android">
+            <a class="application-list__link" href="https://play.google.com/store">Скачать приложение на Android</a>
           </li>
-          <li class="application-list__item">
-            <a href="https://www.microsoft.com/ru-ru/store/appsvnext/windows-phone">Скачать приложение на Windows Phone</a>
+          <li class="application-list__item application-list__item--microsoft">
+            <a class="application-list__link" href="https://www.microsoft.com/ru-ru/store/appsvnext/windows-phone">Скачать приложение на Windows Phone</a>
           </li>
         </ul>
         <p class="application-download__description">
@@ -155,24 +156,26 @@
       <section class="maps">
         <h2 class="visually-hidden">Месторасположение разработчиков приложения &#171;Пинк&#187; на карте</h2>
         <p class="maps__map">
-          <img class="maps__map-image" src="http://placehold.it/320x645" width="320" height="645" alt="Разработчики приложения Пинк на карте">
+          <img class="maps__map-image" src="img/bg-map-mobile@1x.png" width="320" height="645" alt="Разработчики приложения Пинк на карте">
         </p>
       </section>
     </main>
     <footer class="page-footer">
       <b class="page-footer__slogan">Остались вопросы? Свяжитесь с нами!</b>
-      <div class="page-footer__phone phone">
-        <b class="phone__title">Звоните:</b>
-        <span class="phone__number">+7 (812) 555-66-66</span>
-      </div>
-      <div class="page-footer__email email">
-        <b class="email__title">Пишите:</b>
-        <span class="email__address">mail@htmlacademy.ru</span>
-      </div>
-      <div class="page-footer__address address">
-        <b class="address__title">Приезжайте в гости:</b>
-        <span class="address__text">ул. Большая Конюшенная, 19/8</span>
-      </div>
+      <ul class="page-footer__contacts contacts-list">
+        <li class="contacts-list__item">
+          <h3 class="contacts-list__title">Звоните:</h3>
+          <p class="contacts-list__information">+7 (812) 555-66-66</p>
+        </li>
+        <li class="contacts-list__item">
+          <h3 class="contacts-list__title">Пишите:</h3>
+          <p class="contacts-list__information">mail@htmlacademy.ru</p>
+        </li>
+        <li class="contacts-list__item">
+          <h3 class="contacts-list__title">Приезжайте в гости:</h3>
+          <p class="contacts-list__information">ул. Большая Конюшенная, 19/8</p>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>

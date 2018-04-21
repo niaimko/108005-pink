@@ -1,0 +1,9 @@
+.site-list {
+  @include list-default-style;
+
+  background-color: $background-color-dark-second;
+}
+
+.site-list__link {
+  color: $color-light;
+}

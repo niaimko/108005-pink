@@ -1,0 +1,24 @@
+.appointment {
+  background-color: $background-color-main;
+}
+
+.appointment__info {
+  line-height: 30px;
+}
+
+.appointment__legend {
+  line-height: 30px;
+
+  sup {
+    color: $color-bright;
+  }
+}
+
+.appointment__button {
+  font: inherit;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: $color-light;
+  text-transform: uppercase;
+}

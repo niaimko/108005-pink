@@ -1,0 +1,30 @@
+.application-list {
+  @include list-default-style;
+}
+
+.application-list__item {
+  min-height: 56px;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  &--ios {
+    background-image: url("../img/logo-apple.svg");
+  }
+
+  &--android {
+    background-image: url("../img/logo-android.svg");
+  }
+
+  &--microsoft {
+    background-image: url("../img/logo-microsoft.svg");
+  }
+}
+
+.application-list__link {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: $color-light;
+  text-decoration: none;
+}

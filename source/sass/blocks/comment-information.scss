@@ -1,0 +1,17 @@
+.comment-information {
+  min-height: 271px;
+
+  background-color: $background-color-main;
+
+  label {
+    line-height: 18px;
+    color: $color-bright;
+    text-transform: uppercase;
+  }
+
+  textarea {
+    font: inherit;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
