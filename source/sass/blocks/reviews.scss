@@ -7,6 +7,9 @@
 }
 
 .reviews__item {
+  display: flex;
+  flex-direction: column;
+
   margin: 0;
   padding: 0;
 }
@@ -17,4 +20,10 @@
   line-height: 30px;
   font-weight: 700;
   color: $color-dark;
+}
+
+@media (min-width: $tablet-width) {
+  .reviews__text {
+    order: -1;
+  }
 }
