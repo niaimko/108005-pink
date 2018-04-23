@@ -14,3 +14,27 @@
     line-height: 30px;
   }
 }
+
+.contacts-information__item {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: $tablet-width) {
+  .contacts-information {
+    order: -1;
+  }
+  .contacts-information__item {
+    input {
+      order: -1;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contacts-information {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}

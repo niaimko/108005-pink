@@ -1,0 +1,17 @@
+.appointment-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: $tablet-width) {
+  .appointment-button-wrapper {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .appointment-button-wrapper {
+    width: 100%;
+  }
+}

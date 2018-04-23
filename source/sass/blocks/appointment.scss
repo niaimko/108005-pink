@@ -6,6 +6,11 @@
   line-height: 30px;
 }
 
+.appointment__form {
+  display: flex;
+  flex-direction: column;
+}
+
 .appointment__legend {
   line-height: 30px;
 
@@ -21,4 +26,12 @@
   font-weight: 700;
   color: $color-light;
   text-transform: uppercase;
+}
+
+@media (min-width: $desktop-width) {
+  .appointment__form {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }

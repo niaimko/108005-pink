@@ -4,6 +4,9 @@
 
 .social__list {
   @include list-default-style;
+
+  display: flex;
+  justify-content: space-between;
 }
 
 .social__link {

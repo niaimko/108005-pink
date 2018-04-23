@@ -14,3 +14,26 @@
     line-height: 30px;
   }
 }
+
+.name-information__item {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: $tablet-width) {
+  .name-information {
+    order: -3;
+  }
+  .name-information__item {
+    flex-direction: row;
+    input {
+      flex-grow: 1;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .name-information {
+    width: 470px;
+  }
+}

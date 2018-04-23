@@ -6,180 +6,187 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body class="form-page">
-    <header class="page-header">
-      <a class="page-header__logo" href="index.html">
-        <img class="page-header__logo-image" src="img/logo-pink-white-mobile.svg" width="75" height="22" alt="Приложение Пинк">
-      </a>
-      <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
-        <ul class="main-nav__list site-list">
-          <li class="site-list__item">
-            <a class="site-list__link" href="index.html">Главная</a>
-          </li>
-          <li class="site-list__item">
-            <a class="site-list__link" href="photo.html">Фотографии</a>
-          </li>
-          <li class="site-list__item site-list__item--active">
-            <a class="site-list__link">Конкурс</a>
-          </li>
-          <li class="site-list__item">
-            <a class="site-list__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main class="page-main">
-      <!--блок приветствия-->
-      <section class="page-intro">
-        <h1 class="page-intro__title">Конкурс на самое безбашенное путешествие с Пинк</h1>
-      </section>
-      <!--блок записи на конкурс-->
-      <section class="appointment">
-        <p class="appointment__info">
-          Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!
-        </p>
-        <form class="appointment__form" action="https://echo.htmlacademy.ru" method="get">
-          <!--информация об имени-->
-          <div class="appointment__name-information name-information">
-            <p class="name-information__item">
-              <label for="appointment-surname">Фамилия:</label>
-              <input id="appointment-surname" type="text" name="surname" value="" placeholder="Укажите фамилию *" required>
-            </p>
-            <p class="name-information__item">
-              <label for="appointment-name">Имя:</label>
-              <input id="appointment-name" type="text" name="name" value="" placeholder="Введите ваше имя *" required>
-            </p>
-            <p class="name-information__item">
-              <label for="appointment-patronymic">Отчество:</label>
-              <input id="appointment-patronymic" type="text" name="patronymic" value="" placeholder="Ну и отчество тоже">
-            </p>
-          </div>
-          <!--достижения-->
-          <fieldset class="appointment__achievements-information achievements-information">
-            <h2 class="achievements-information__intro">Ваши безбашенные достижения в путешествии</h2>
-            <ul class="achievements-information__list achievements-list">
-              <li class="achievements-list__item">
-                <label class="achievements-list__checkbox">
-                  <input type="checkbox" name="shark" class="visually-hidden" checked>
-                  <span class="achievements-list__checkbox-indicator"></span>
-                  Сделал селфи с акулой
-                </label>
-              </li>
-              <li class="achievements-list__item">
-                <label class="achievements-list__checkbox">
-                  <input type="checkbox" name="beach" class="visually-hidden" checked>
-                  <span class="achievements-list__checkbox-indicator"></span>
-                  Обгорел на пляже
-                </label>
-              </li>
-              <li class="achievements-list__item">
-                <label class="achievements-list__checkbox">
-                  <input type="checkbox" name="chuck-norris" class="visually-hidden">
-                  <span class="achievements-list__checkbox-indicator"></span>
-                  Видел Чака Норриса
-                </label>
-              </li>
-              <li class="achievements-list__item">
-                <label class="achievements-list__checkbox">
-                  <input type="checkbox" name="souvenir" class="visually-hidden">
-                  <span class="achievements-list__checkbox-indicator"></span>
-                  Накупил сувениров
-                </label>
-              </li>
-              <li class="achievements-list__item">
-                <label class="achievements-list__checkbox">
-                  <input type="checkbox" name="tower" class="visually-hidden" checked>
-                  <span class="achievements-list__checkbox-indicator"></span>
-                  Удержал башню
-                </label>
-              </li>
-              <li class="achievements-list__item">
-                <label class="achievements-list__checkbox">
-                  <input type="checkbox" name="hotel" class="visually-hidden">
-                  <span class="achievements-list__checkbox-indicator"></span>
-                  Разгромил отель
-                </label>
-              </li>
-            </ul>
-          </fieldset>
-          <!--контакты-->
-          <div class="appointment__contacts-information contacts-information">
-            <p class="contacts-information__item">
-              <label for="appointment-phone">Номер телефона</label>
-              <input id="appointment-phone" type="tel" name="phone" value="" placeholder="Номер, пожалуйста">
-            </p>
-            <p class="contacts-information__item">
-              <label for="appointment-email">Адрес почты</label>
-              <input id="appointment-email" type="email" name="email" value="" placeholder="Введите почту *" required>
-            </p>
-          </div>
-          <!--платформа телефона-->
-          <fieldset class="appointment__platform-information platform-information">
-            <h2 class="platform-information__intro">С каким приложением путешествовали?</h2>
-            <ul class="platform-information__list platform-list">
-              <li class="platform-list__item">
-                <label class="platform-list__radio">
-                  <input type="radio" name="platform" value="ios" class="visually-hidden" checked>
-                  <span class="platform-list__radio-indicator"></span>
-                  Pink для iOS
-                </label>
-              </li>
-              <li class="platform-list__item">
-                <label class="platform-list__radio">
-                  <input type="radio" name="platform" value="android" class="visually-hidden">
-                  <span class="platform-list__radio-indicator"></span>
-                  Pink на Android
-                </label>
-              </li>
-              <li class="platform-list__item">
-                <label class="platform-list__radio">
-                  <input type="radio" name="platform" value="windows-phone" class="visually-hidden">
-                  <span class="platform-list__radio-indicator"></span>
-                  Windows Phone
-                </label>
-              </li>
-            </ul>
-          </fieldset>
-          <!--комментарий-->
-          <div class="appointment__comment comment-information">
-            <label for="appointment-note">Опишите свои эмоции</label>
-            <textarea id="appointment-note" name="note" rows="9" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
-          </div>
-          <!--кнопка-->
-          <button class="appointment__button" type="submit">Отправить форму</button>
-          <!--надпись-->
-          <span class="appointment__legend">
-            <sup>*</sup> — обязательные поля
-          </span>
-        </form>
-      </section>
-    </main>
-    <footer class="page-footer">
-      <!--лого-->
-      <div class="page-footer__logo logo">
-        <img class="logo__image" src="img/logo-pink-blue-mobile.svg" width="147" height="40" alt="Приложение Пинк">
-      </div>
-      <!--социальные сети-->
-      <div class="page-footer__social social">
-        <ul class="social__list">
-          <li class="social__item">
-            <a class="social__link social__link--twitter" href="#">Мы в Твиттере</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--facebook" href="#">Мы в Фейсбуке</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--youtube" href="#">Мы в Ютубе</a>
-          </li>
-        </ul>
-      </div>
-      <!--копирайт-->
-      <div class="page-footer__copyright copyright">
-        <b class="copyright__text">Разработано</b>
-        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
-          <img class="copyright__logo-image" src="img/logo-htmlacademy.svg" width="27" height="34" alt="HTML Academy">
+    <div class="container">
+      <header class="page-header">
+        <a class="page-header__logo" href="index.html">
+          <img class="page-header__logo-image" src="img/logo-pink-white-mobile.svg" width="75" height="22" alt="Приложение Пинк">
         </a>
-      </div>
-    </footer>
+        <nav class="main-nav">
+          <button class="main-nav__toggle" type="button">Открыть меню</button>
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a class="site-list__link" href="index.html">Главная</a>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__link" href="photo.html">Фотографии</a>
+            </li>
+            <li class="site-list__item site-list__item--active">
+              <a class="site-list__link">Конкурс</a>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="page-main">
+        <!--блок приветствия-->
+        <section class="page-intro">
+          <h1 class="page-intro__title">Конкурс на самое безбашенное путешествие с Пинк</h1>
+        </section>
+        <!--блок записи на конкурс-->
+        <section class="appointment">
+          <p class="appointment__info">
+            Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!
+          </p>
+          <form class="appointment__form" action="https://echo.htmlacademy.ru" method="get">
+            <!--информация об имени-->
+            <div class="appointment__name-information name-information">
+              <p class="name-information__item">
+                <label for="appointment-surname">Фамилия:</label>
+                <input id="appointment-surname" type="text" name="surname" value="" placeholder="Укажите фамилию *" required>
+              </p>
+              <p class="name-information__item">
+                <label for="appointment-name">Имя:</label>
+                <input id="appointment-name" type="text" name="name" value="" placeholder="Введите ваше имя *" required>
+              </p>
+              <p class="name-information__item">
+                <label for="appointment-patronymic">Отчество:</label>
+                <input id="appointment-patronymic" type="text" name="patronymic" value="" placeholder="Ну и отчество тоже">
+              </p>
+            </div>
+            <!--достижения-->
+            <fieldset class="appointment__achievements-information achievements-information">
+              <h2 class="achievements-information__intro">Ваши безбашенные достижения в путешествии</h2>
+              <ul class="achievements-information__list achievements-list">
+                <li class="achievements-list__item">
+                  <label class="achievements-list__checkbox">
+                    <input type="checkbox" name="shark" class="visually-hidden" checked>
+                    <span class="achievements-list__checkbox-indicator"></span>
+                    Сделал селфи с акулой
+                  </label>
+                </li>
+                <li class="achievements-list__item">
+                  <label class="achievements-list__checkbox">
+                    <input type="checkbox" name="beach" class="visually-hidden" checked>
+                    <span class="achievements-list__checkbox-indicator"></span>
+                    Обгорел на пляже
+                  </label>
+                </li>
+                <li class="achievements-list__item">
+                  <label class="achievements-list__checkbox">
+                    <input type="checkbox" name="chuck-norris" class="visually-hidden">
+                    <span class="achievements-list__checkbox-indicator"></span>
+                    Видел Чака Норриса
+                  </label>
+                </li>
+                <li class="achievements-list__item">
+                  <label class="achievements-list__checkbox">
+                    <input type="checkbox" name="souvenir" class="visually-hidden">
+                    <span class="achievements-list__checkbox-indicator"></span>
+                    Накупил сувениров
+                  </label>
+                </li>
+                <li class="achievements-list__item">
+                  <label class="achievements-list__checkbox">
+                    <input type="checkbox" name="tower" class="visually-hidden" checked>
+                    <span class="achievements-list__checkbox-indicator"></span>
+                    Удержал башню
+                  </label>
+                </li>
+                <li class="achievements-list__item">
+                  <label class="achievements-list__checkbox">
+                    <input type="checkbox" name="hotel" class="visually-hidden">
+                    <span class="achievements-list__checkbox-indicator"></span>
+                    Разгромил отель
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+            <!--контакты-->
+            <div class="appointment__contacts-information contacts-information">
+              <p class="contacts-information__item">
+                <label for="appointment-phone">Номер телефона</label>
+                <input id="appointment-phone" type="tel" name="phone" value="" placeholder="Номер, пожалуйста">
+              </p>
+              <p class="contacts-information__item">
+                <label for="appointment-email">Адрес почты</label>
+                <input id="appointment-email" type="email" name="email" value="" placeholder="Введите почту *" required>
+              </p>
+            </div>
+            <!--платформа телефона-->
+            <fieldset class="appointment__platform-information platform-information">
+              <h2 class="platform-information__intro">С каким приложением путешествовали?</h2>
+              <ul class="platform-information__list platform-list">
+                <li class="platform-list__item">
+                  <label class="platform-list__radio">
+                    <input type="radio" name="platform" value="ios" class="visually-hidden" checked>
+                    <span class="platform-list__radio-indicator"></span>
+                    Pink для iOS
+                  </label>
+                </li>
+                <li class="platform-list__item">
+                  <label class="platform-list__radio">
+                    <input type="radio" name="platform" value="android" class="visually-hidden">
+                    <span class="platform-list__radio-indicator"></span>
+                    Pink на Android
+                  </label>
+                </li>
+                <li class="platform-list__item">
+                  <label class="platform-list__radio">
+                    <input type="radio" name="platform" value="windows-phone" class="visually-hidden">
+                    <span class="platform-list__radio-indicator"></span>
+                    Windows Phone
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+            <!--комментарий-->
+            <div class="appointment__comment comment-information">
+              <label for="appointment-note">Опишите свои эмоции</label>
+              <textarea id="appointment-note" name="note" rows="9" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+            </div>
+            <div class="appointment-button-wrapper">
+              <!--кнопка-->
+              <button class="appointment__button" type="submit">Отправить форму</button>
+              <!--надпись-->
+              <span class="appointment__legend appointment__legend__legend-min">
+                <sup>*</sup> — обязательные поля
+              </span>
+              <span class="appointment__legend appointment__legend__legend-max">
+                <sup>*</sup> — обязательные для заполнения поля
+              </span>
+            </div>
+          </form>
+        </section>
+      </main>
+      <footer class="page-footer">
+        <!--лого-->
+        <div class="page-footer__logo logo">
+          <img class="logo__image" src="img/logo-pink-blue-mobile.svg" width="147" height="40" alt="Приложение Пинк">
+        </div>
+        <!--социальные сети-->
+        <div class="page-footer__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--twitter" href="#">Мы в Твиттере</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--facebook" href="#">Мы в Фейсбуке</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--youtube" href="#">Мы в Ютубе</a>
+            </li>
+          </ul>
+        </div>
+        <!--копирайт-->
+        <div class="page-footer__copyright copyright">
+          <b class="copyright__text">Разработано</b>
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+            <img class="copyright__logo-image" src="img/logo-htmlacademy.svg" width="27" height="34" alt="HTML Academy">
+          </a>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
