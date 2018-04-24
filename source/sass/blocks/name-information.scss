@@ -1,12 +1,10 @@
 .name-information {
   min-height: 370px;
   background-color: $background-color-main;
-
   label {
     color: $color-bright;
     text-transform: uppercase;
   }
-
   input {
     font: inherit;
     font-size: 18px;
