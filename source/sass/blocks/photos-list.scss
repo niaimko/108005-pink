@@ -1,10 +1,11 @@
 .photos-list {
   @include list-default-style;
+  display: flex;
+  flex-direction: column;
 }
 
 .photos-list__item {
   min-height: 323px;
-
   background-color: $background-color-second;
 }
 
@@ -21,4 +22,18 @@
 .photos-list__like {
   font-size: 12px;
   color: $color-bright;
+}
+
+@media (min-width: $tablet-width) {
+  .photos-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .photos-list__item {
+    width: 300px;
+  }
+  .photos-list__item--main {
+    min-width: 100%;
+  }
 }

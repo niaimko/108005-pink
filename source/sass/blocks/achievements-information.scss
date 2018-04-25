@@ -13,3 +13,9 @@
   color: $color-bright;
   text-transform: uppercase;
 }
+
+@media (min-width: $desktop-width) {
+  .achievements-information {
+    width: 100%;
+  }
+}

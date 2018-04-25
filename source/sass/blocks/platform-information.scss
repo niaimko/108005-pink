@@ -13,3 +13,16 @@
   color: $color-bright;
   text-transform: uppercase;
 }
+
+@media (min-width: $tablet-width) {
+  .platform-information {
+    order: -2;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .platform-information {
+    box-sizing: border-box;
+    width: 470px;
+  }
+}

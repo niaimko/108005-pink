@@ -1,0 +1,27 @@
+.advatage {
+  background-color: transparent;
+}
+
+.advantage__title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: $color-dark;
+}
+
+.advantage__link {
+  color: $color-bright;
+  text-decoration: underline;
+}
+
+@media (min-width: $tablet-width) {
+  .advantage__wrapper {
+    margin-left: 50%;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advantage__wrapper {
+    margin-left: 40%;
+  }
+}

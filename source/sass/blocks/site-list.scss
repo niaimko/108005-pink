@@ -1,9 +1,18 @@
 .site-list {
   @include list-default-style;
-
   background-color: $background-color-dark-second;
 }
 
 .site-list__link {
   color: $color-light;
+}
+
+@media (min-width: $desktop-width) {
+  .site-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .site-list__item {
+    min-width: 150px;
+  }
 }

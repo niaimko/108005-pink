@@ -16,3 +16,17 @@
   line-height: 32px;
   font-weight: 300;
 }
+
+@media (min-width: $tablet-width) {
+  .application-features {
+    min-height: 725px;
+    background-position: bottom left;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .application-features {
+    min-height: 1362px;
+    background-image: none;
+  }
+}

@@ -1,5 +1,9 @@
 .comment-information {
+  display: flex;
+  flex-direction: column;
+
   min-height: 271px;
+  width: 100%;
 
   background-color: $background-color-main;
 

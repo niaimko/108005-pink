@@ -36,6 +36,7 @@
       <!--блок "скачать приложение"-->
       <section class="application-download">
         <h2 class="visually-hidden">Ссылки на скачивание приложения &#171;Пинк&#187;</h2>
+        <b class="application-download__slogan">Взгляните на жизнь иначе!</b>
         <a class="application-download__default button" href="https://itunes.apple.com/ru/genre/ios/id36?mt=8">Скачать приложение</a>
         <ul class="application-download__list application-list">
           <li class="application-list__item application-list__item--ios">
@@ -86,6 +87,16 @@
           </li>
         </ul>
       </section>
+      <!--блок "эффект от приложения"-->
+      <article class="advantage">
+        <div class="advantage__wrapper">
+          <h2 class="advantage__title">Эффект на 24 часа!</h2>
+          <p class="advantage__description">
+            Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!
+          </p>
+          <a class="advantage__link" href="#">Узнать больше об исследовании</a>
+        </div>
+      </article>
       <!--блок "отзывы"-->
       <section class="reviews">
         <div class="reviews-wrapper slider">
@@ -95,6 +106,7 @@
               <cite class="reviews__author-name">
                 Николай Петров
               </cite>
+              <span class="reviews__author-description">25 лет, водитель трамвая</span>
               <p class="reviews__text">
                 Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!
               </p>
@@ -112,36 +124,36 @@
         <div class="rates-wrapper slider">
           <h2 class="visually-hidden">Тарифы на приложение &#171;Пинк&#187;</h2>
           <div class="rates__list slider__list">
+            <!--таблица-->
             <table class="rates__item slider__item">
               <tr>
-                <th class="rates__title" colspan="2">Стандарт</th>
+                <th class="rates__property-name" rowspan="2">Название свойства</th>
+                <th class="rates__title">База</th>
+                <th class="rates__title">Стандарт</th>
+                <th class="rates__title">Анлим</th>
               </tr>
               <tr>
-                <th class="rates__price" colspan="2">3,99 USD</th>
+                <th class="rates__price">1,99 USD</th>
+                <th class="rates__price">3,99 USD</th>
+                <th class="rates__price">9,99 USD</th>
               </tr>
               <tr>
-                <td class="rates__property-filter">
-                  Розовый фильтр
-                </td>
-                <td class="rates__property-include">
-                  Да
-                </td>
+                <td class="rates__property-filter">Розовый фильтр</td>
+                <td class="rates__property-include">Да</td>
+                <td class="rates__property-include">Да</td>
+                <td class="rates__property-include">Да</td>
               </tr>
               <tr>
-                <td class="rates__property-smiles">
-                  Смайлики
-                </td>
-                <td class="rates__property-include">
-                  Да
-                </td>
+                <td class="rates__property-smiles">Смайлики</td>
+                <td class="rates__property-exclude">Нет</td>
+                <td class="rates__property-include">Да</td>
+                <td class="rates__property-include">Да</td>
               </tr>
               <tr>
-                <td class="rates__property-comments">
-                  Комментарии
-                </td>
-                <td class="rates__property-exclude">
-                  Нет
-                </td>
+                <td class="rates__property-comments">Комментарии</td>
+                <td class="rates__property-exclude">Нет</td>
+                <td class="rates__property-exclude">Нет</td>
+                <td class="rates__property-include">Да</td>
               </tr>
             </table>
           </div>
@@ -159,10 +171,10 @@
           <img class="maps__map-image" src="img/bg-map-mobile@1x.png" width="320" height="645" alt="Разработчики приложения Пинк на карте">
         </p>
       </section>
-    </main>
-    <footer class="page-footer">
-      <b class="page-footer__slogan">Остались вопросы? Свяжитесь с нами!</b>
-      <ul class="page-footer__contacts contacts-list">
+      <!--блок контакты-->
+      <section class="connection">
+      <b class="connection__slogan">Остались вопросы? Свяжитесь с нами!</b>
+      <ul class="connection__contacts contacts-list">
         <li class="contacts-list__item">
           <h3 class="contacts-list__title">Звоните:</h3>
           <p class="contacts-list__information">+7 (812) 555-66-66</p>
@@ -176,6 +188,34 @@
           <p class="contacts-list__information">ул. Большая Конюшенная, 19/8</p>
         </li>
       </ul>
+    </section>
+    </main>
+    <footer class="page-footer">
+      <!--лого-->
+      <div class="page-footer__logo logo">
+        <img class="logo__image" src="img/logo-pink-blue-mobile.svg" width="147" height="40" alt="Приложение Пинк">
+      </div>
+      <!--социальные сети-->
+      <div class="page-footer__social social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--twitter" href="#">Мы в Твиттере</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--facebook" href="#">Мы в Фейсбуке</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--youtube" href="#">Мы в Ютубе</a>
+          </li>
+        </ul>
+      </div>
+      <!--копирайт-->
+      <div class="page-footer__copyright copyright">
+        <b class="copyright__text">Разработано</b>
+        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+          <img class="copyright__logo-image" src="img/logo-htmlacademy.svg" width="27" height="34" alt="HTML Academy">
+        </a>
+      </div>
     </footer>
   </body>
 </html>

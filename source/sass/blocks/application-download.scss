@@ -1,6 +1,16 @@
 .application-download {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   font-weight: 300;
   color: $color-light;
 
   background-color: $background-color-dark;
+}
+
+.application-download__slogan {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 300;
 }
