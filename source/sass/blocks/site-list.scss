@@ -1,10 +1,26 @@
 .site-list {
   @include list-default-style;
-  background-color: $background-color-dark-second;
+  width: 320px;
 }
 
 .site-list__link {
+  display: block;
+  padding: 25px 10px;
+
   color: $color-light;
+  text-align: center;
+
+  background-color: $background-color-dark-second;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid #000000;
+
+  &[href]:hover {
+    color: #d22856;
+  }
+
+  &[href]:active {
+    color: rgba(210, 40, 86, 0.3);
+  }
 }
 
 @media (min-width: $desktop-width) {
